@@ -1,0 +1,59 @@
+.personal{
+   
+    /* background-color: blueviolet; */
+    background-image: url(../img/Personal/3.jpg); 
+    background-repeat: no-repeat;
+}
+
+.contenedor-personal{
+
+display: flex;
+gap: 5em;
+padding-top: 50px;
+
+
+}
+
+.personal-div{
+    color: #013565;
+    text-align: center;
+    
+}
+
+.titulo-personal
+{
+   
+    font-size: 60px;
+    position: relative;
+    border-bottom: 4px solid var(--text-amarillo);
+    display: inline-block;
+}
+
+
+.img-personal{
+
+    
+    height: 500px;
+    width: 550px;
+    border-radius: 30px;
+}
+
+.info-personal{
+    
+    
+    background-color: white;
+    border-radius: 30px;
+    align-content: center;
+    padding: 10px;
+}
+
+.text-personal{
+
+    
+    text-align: justify;
+    margin: 70px 70px;
+}
+
+.background{
+    background-color: aqua;
+}
