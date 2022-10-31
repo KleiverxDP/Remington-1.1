@@ -1,0 +1,35 @@
+.footer-one{
+
+    background-image: url(../img/Footer-One/6.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.footer-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+
+.footer-info{
+
+ color: white;
+ font-size: 35px;
+}
+
+.footer-text-fondo{
+
+    background-color: var(--text-amarillo);
+    font-size: 30px;
+    color: #013565;
+    padding: 3px 30px;
+    border-radius: 18px;
+    display: inline;
+
+}
