@@ -1,0 +1,84 @@
+.inicio-horario{
+background-image: url(../img/Horario/4.jpg);
+background-repeat: no-repeat;
+}
+
+.horario-contenido{
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    
+}
+
+.horario-info{
+    color: white;
+    
+}
+
+.horario-title{
+
+    font-size: 70px;
+
+}
+
+.img-vigilante {
+
+width: 550px;
+height: 560px;
+
+}
+
+.trazo{
+    
+    color: #001D3D;
+    -webkit-text-stroke: 1.5px white;
+}
+
+.horario-text{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.text-horas{
+    font-size: 100px;
+    color: var(--text-amarillo);
+}
+
+.efe-pequeño{
+    font-size: 35px;
+}
+
+.efe-fondo{
+    background-color: var(--text-amarillo);
+    font-size: 30px;
+    color: #013565;
+    padding: 1px 12px;
+    border-radius: 18px;
+    display: inline;
+}
+
+@keyframes mover1{
+
+    0%{
+
+        transform: translateX(50%);
+
+    } 
+
+}
+
+@media (max-width: 900px) {
+
+.horario-contenido{
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content;
+    gap: 3em;
+    
+}
+
+}

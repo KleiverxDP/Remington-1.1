@@ -1,0 +1,104 @@
+.servicios{
+
+    /* background-color: #001D3D; */
+    background-image: url(../img/Inicio/2.jpg);
+    background-repeat: no-repeat;
+}
+.servicios-div{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #013565;
+
+}
+
+
+.servicios-title{
+
+    font-size: 60px;
+    position: relative;
+    border-bottom: 4px solid var(--text-amarillo);
+    display: inline-block;
+}
+
+
+.servicios-info{
+
+   text-align: center;
+   
+}
+
+.servicios-text{
+    margin: 50px;
+    text-align: justify;
+}
+
+.servicios-img{
+
+    text-align: center;
+
+}
+
+.img-servicios{
+   
+width: 420px;
+height: 500px;
+}
+
+
+.btn-servicios{
+    
+     display: inline-block; 
+     padding: 8px 35px;
+     background-color: #001D3D; 
+     color: #fff;
+     border-radius: 30px; 
+     font-weight: 700;
+     
+}
+
+.btn-servicios:hover{
+    
+    background-color: #013565;
+   
+}
+
+.btn-servicios span{
+    transition: all 0.8s;
+}
+
+.btn-servicios:hover span{
+    
+    margin-left: 8px;
+    
+}
+
+.servicios-boton{
+
+    text-align: center;
+}
+
+@keyframes mover{
+
+    0%{
+
+        transform: translateX(-50%);
+
+    } 
+
+}
+
+@media (max-width: 900px) {
+
+    .servicios-div{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        gap: 4em;
+   
+    
+    }
+    
+
+}
