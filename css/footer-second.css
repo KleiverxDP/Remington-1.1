@@ -1,0 +1,20 @@
+.footer-second{
+
+background-color: #000813;
+
+}
+
+.footer-second-info{
+    
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.text-footer-second{
+    
+    color: var(--text-amarillo);
+
+}
