@@ -1,0 +1,90 @@
+.basamento-info{
+
+display: flex;
+
+}
+
+.basamento-izq{
+
+background-image: url(../img/Basamento-Legal/photo1.1.png); 
+background-repeat: no-repeat;
+width: 50%;
+height: 100vh;
+
+}
+
+.basamento-dere{
+
+background-image: url(../img/Basamento-Legal/bg_1.png);
+background-repeat: no-repeat;
+width: 50%;
+
+}
+
+.basamento-title{
+
+color: #003566;
+font-size: 70px;
+font-weight: 800;
+text-align: center;
+
+
+}
+
+.basamento-text{
+
+color: #003566;
+line-height: 1.5;
+padding: 40px 95px;
+text-align: justify;
+
+
+}
+
+@media (max-width: 900px) {
+
+    .basamento-info{
+
+        display: block;
+        
+        }
+
+    .basamento-izq{
+
+        background-image: url(../img/Basamento-Legal/photo.png) no-repeat center/cover; 
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+            
+            }
+            
+        .basamento-dere{
+            
+        background-image: url(../img/Basamento-Legal/bg_5.png)  ;
+        background-repeat: no-repeat;
+        width: 100%;
+            
+            }
+
+        .basamento-title{
+
+            
+        font-size: 45px;
+        font-weight: 800;
+        text-align: center;
+                
+                
+            }
+
+        .basamento-text{
+
+        color: #003566;
+        line-height: 1.5;
+        padding: 40px 55px;
+        text-align: justify;
+                
+                
+            }
+        
+
+}
