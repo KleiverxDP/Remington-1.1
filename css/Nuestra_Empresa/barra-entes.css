@@ -1,0 +1,71 @@
+
+
+.slider {
+
+    background-image: url(../img/Barra-Slider/bg3.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider .slide-track {
+
+    display: flex;
+    animation: scroll 50s linear infinite;
+    -webkit-animation: scroll 50s linear infinite;
+    width: calc(200px *22);
+
+}
+
+.slider .slide {
+
+    padding: 15px 10px;
+    width: 200px;
+
+}
+
+.slider .slide img {
+
+    width: 120px;
+    height: 70px;
+
+}
+
+@keyframes scroll {
+    
+    0% {
+
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        
+    }
+
+    100% {
+
+        -webkit-transform: translateX(calc(-200px * 11));
+        transform: translateX(calc(-200px * 11));
+
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .slider .slide {
+
+        padding: 15px 10px;
+        width: 200px;
+    
+    }
+   
+    .slider .slide img {
+
+        width: 100px;
+        height: 60px;
+    
+    }
+    
+}

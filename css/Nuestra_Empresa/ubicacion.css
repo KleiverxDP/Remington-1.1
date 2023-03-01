@@ -1,0 +1,125 @@
+.ubicacion{
+
+background-image: url(../img/Ubicacion/bg2.png) ;
+
+}
+
+.ubicacion-info{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 3em;
+color: #fff;
+
+}
+
+
+.ubicacion-title{
+
+font-size: 50px;
+
+}
+
+.estados-grande{
+
+font-size: 100px;
+
+}
+
+.map-tamaño{
+
+height: 520px;
+width: 590px;
+
+}
+
+.div-ciuda-info{
+
+padding: 20px 0;
+
+}
+
+
+.ciuda-text{
+
+    
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 2.0;
+
+}
+
+.ave{
+
+    font-size: 15px;
+    background-color: #FFB800;
+    color: #003267;
+    padding: 3.5px 7px;
+    border-radius: 60%;
+}
+
+.div-ciuda-info{
+
+display: flex;
+
+}
+
+@media (max-width: 900px){
+
+    .ubicacion{
+
+        background-image: url(../img/Ubicacion/bg_2.png);
+        
+        }
+
+    .ubicacion-info{
+
+        display: block;
+        color: #fff;
+            
+         }
+
+    .ubicacion-title{
+
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+            
+         }
+    .estados-grande{
+
+        font-size: 65px;
+                
+         }       
+        
+    .ciuda-text{
+
+        
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 2.0;
+        
+         }
+
+    .div-ciuda-info{
+
+        padding: 40px 0;
+        justify-content: center;
+
+         }
+
+    .map-tamaño{
+
+        height: 310px;
+        width: 360px;
+            
+         }
+    
+    .ubicacion-map{
+
+        text-align: center;
+
+    }
+    
+
+}
