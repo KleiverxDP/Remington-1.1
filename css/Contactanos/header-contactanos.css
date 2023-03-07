@@ -1,0 +1,59 @@
+:root{
+    
+    --padding-container: 70px 0;
+    --color-title: blue;
+    --text-amarillo: #FFB800;
+}
+
+.text_amarillo{
+    color: var(--text-amarillo);
+}
+
+.negrita{
+    font-weight: 700;
+}
+
+.raya{
+    position: relative;
+    border-bottom: 4px solid var(--text-amarillo);
+    display: inline-block;
+}
+
+.contactanos_text{
+    margin: auto 100px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.contactanos_title{
+
+    font-size: 65px;
+
+}
+
+.contactanos_container{
+   
+    max-width: 800px;
+    --padding-container:0;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1.5em;
+    text-align: center;
+    
+}
+
+@media (max-width: 900px) {
+
+.contactanos_title{
+
+    font-size: 40px;
+    
+}
+
+.contactanos_text{
+    margin: auto 50px;
+    font-weight: 300;
+    font-size: 20px;
+}
+}

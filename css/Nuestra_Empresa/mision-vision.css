@@ -1,0 +1,110 @@
+.mision-vision {
+
+background-image: url(../img/Mision-Vision/bg6.png);
+
+
+}
+
+.contenedor-mision-vision{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6em;
+    padding-top: 50px;
+
+
+}
+
+.info-mision-vision{
+    
+    
+    background-color: white;
+    border-radius: 30px;
+    align-content: center;
+    line-height: 1.5;
+    margin: 40px 45px;
+}
+
+.text-mision-vision{
+
+    text-align: justify;
+    margin: 55px 90px;
+
+}
+
+.iconos{
+
+text-align: center;
+padding-top: 50px;
+
+
+}
+
+.icono-mision-vision{
+
+background-color: #001D3C;
+border-radius: 30%;
+width: 120px;
+height: 120px;
+padding: 10px 10px;
+}
+
+.titulo-mision-vision {
+
+    font-size: 35px;
+    text-align: center;
+    color: var(--text-amarillo);
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+
+@media (max-width: 900px){
+
+.contenedor-mision-vision{
+
+    display: block;
+    
+    }
+
+.text-mision-vision{
+
+    text-align: justify;
+    margin: 25px 30px;
+    padding: 20px 10px;
+    }
+
+.info-mision-vision{
+    
+    
+    background-color: white;
+    margin: 20px 25px;
+
+    }  
+
+.mision-vision {
+
+    background-image: url(../img/Mision-Vision/bg_4.png);
+    background-repeat: no-repeat;
+        
+    }
+        
+.iconos{
+
+    text-align: center;
+    padding-top: 50px;
+        
+        
+    }
+        
+    .icono-mision-vision{
+        
+    background-color: #001D3C;
+    border-radius: 30%;
+    width: 120px;
+    height: 120px;
+    padding: 10px 10px;
+    
+    }
+
+}

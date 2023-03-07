@@ -1,0 +1,90 @@
+.servicios-6{
+
+    background-image: url(../img/Servicios/bg.png);
+    
+    }
+    
+    .servicios-6-info{
+    
+    display: flex;
+    
+    
+    }
+
+    .raya{
+        display: inline-block;
+    }
+    
+    .servicios-6-text{
+    
+        font-size: 22px;
+        margin: 40px 60px;
+        line-height: 1.5;
+        color: #fff;
+    }
+    
+    .img-6{
+    
+    height: 550px;
+    width: 580px;
+    
+    }
+    
+    .servicios-6-title{
+    
+    margin: 0 60px;
+    color: #fff;
+    font-size: 65px;
+    
+    }
+
+    .servicios-6-izq{
+        
+    padding-top: 50px;
+
+    }
+    
+    @media (max-width: 900px) {
+
+        .servicios-6{ 
+           
+        background-image: url(../img/Servicios/bg.png);
+                    
+        }
+                    
+        .servicios-6-info{
+                    
+        display: block;
+        text-align: center;                 
+        }
+            
+        .servicios-6-title{
+        
+            margin: 0px 10px;
+            font-size: 40px;
+            
+        
+            }    
+    
+        .servicios-6-text{
+            
+        font-size: 17px;
+        margin: 30px 30px;        
+        line-height: 1.5;
+                
+                }
+                
+        .img-6{
+            
+        height: 350px;
+        width: 370px;
+       
+                }
+    
+        .servicios-6-izq{
+    
+        text-align: center;
+    
+        }
+    
+    }

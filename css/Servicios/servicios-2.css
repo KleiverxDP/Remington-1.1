@@ -1,0 +1,68 @@
+.servicios-2{
+
+background-image: url(../img/Servicios/bg_1.png);
+
+}
+
+.servicios-2-info{
+
+display: flex;
+
+
+}
+
+.servicios-2-text{
+
+font-size: 20px;
+margin: 40px 150px;
+text-align: justify;
+line-height: 1.5;
+
+}
+
+.img-2{
+
+height: 550px;
+width: 580px;
+
+}
+
+.servicios-2-title{
+
+text-align: center;
+
+}
+
+@media (max-width: 900px) {
+
+.servicios-2{
+
+background-image: url(../img/Servicios/bg_1.png);
+        
+}
+        
+.servicios-2-info{
+        
+display: block;
+              
+}
+
+
+
+
+.servicios-2-text{
+
+    font-size: 15px;
+    margin: 10px 30px;
+    text-align: justify;
+    line-height: 1.5;
+    
+    }
+    
+.img-2{
+
+    height: 340px;
+    width: 370px;
+        
+    }
+}
